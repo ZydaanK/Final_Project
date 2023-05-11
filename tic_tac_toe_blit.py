@@ -7,6 +7,7 @@ create a 3 by 3 grid in the window
 add things in the grid
 integrate player 2
 add music
+clean up some messes
 '''
 
 from tkinter import *
@@ -14,7 +15,10 @@ import random
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load('Elevator_Music')
+pygame.mixer.music.load(('Elevator_Music.mp3'))
+pygame.mixer.music.set_volume(0.4)
+pygame.mixer.music.play(loops=-1)
+
 def next_turn(row, column):
 
     global player
