@@ -13,6 +13,8 @@ from tkinter import *
 import random
 import pygame
 
+pygame.mixer.init()
+pygame.mixer.music.load('Elevator_Music')
 def next_turn(row, column):
 
     global player
