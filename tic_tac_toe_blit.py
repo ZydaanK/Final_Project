@@ -163,10 +163,12 @@ frame = Frame(window)
 frame.pack()
 
 for row in range(3):
-    # commands where every
+    # commands where every button goes and what column
+    # how big the buttons are
     for column in range(3):
         buttons[row][column] = Button(frame, text="",font=('consolas',40), width=5, height=2,
                                       command= lambda row=row, column=column: next_turn(row,column))
         buttons[row][column].grid(row=row,column=column)
 
+# keeps the application running until it is closed or terminated by the user
 window.mainloop()   
