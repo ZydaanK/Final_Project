@@ -8,6 +8,8 @@ add things in the grid
 integrate player 2
 add music
 clean up some messes
+comment on everything
+finalize
 '''
 
 from tkinter import *
