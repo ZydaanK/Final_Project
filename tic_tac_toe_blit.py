@@ -1,6 +1,11 @@
 #this file was created by: Zydaan Khan
 
 '''
+Source:
+https://pythonprogramming.altervista.org/how-to-display-text-on-the-screen-with-pygame/
+'''
+
+'''
 Goals:
 Create a window
 create a 3 by 3 grid in the window 
